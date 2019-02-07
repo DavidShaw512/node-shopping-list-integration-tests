@@ -214,9 +214,7 @@ describe('Recipes', function() {
           .send(updatedRecipe)
       })
       .then(function(res) {
-        expect(res).to.have.status(200);
-        expect(res).to.be.json;
-        expect(res.body).to.be.a("object");
+        expect(res).to.have.status(204);
       })
     );
   });

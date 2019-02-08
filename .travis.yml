@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: DO3h4RdqUIpesTZ16huUNx1vf+KoTCJ8c1dw2jWrKeaMll0WihAxn+e+KEb0EX0ihyBMtx1qROmHTZkCuRZyM50du9I9rM/klvX7UAdCvxcd4Wf6sJnSSDD0nCQW/Al8lGLBb4cMf4QudVgnHWosYXRD+VwNOvU72sODZ/oRhYukwhLbJYxbsnBbCE6eUNPW+zE48HsrfiCZpjITny2yy24Yhgy4NsoStADiXReYp5gTL6oy00PCV89ocFO3KYJQ02GL01GJmXJNZpX/7R1HWpyQUU1cI64OgzFpphc50sN/9jRq6PquVjmsbyeG+kWgFkUV6FChmaLmwoQx2OUa0ddJy5bvfOJFiJnM+Ol5oRA2Ye+7akY66qOyCjmrKu7XnvTwmuKlqCxmlR83+v4HxS0NFY8F4ljNmrYhP0NgMOXZJmu0sk28dASMTrP05uHY0SevaI4sqW7EPahIn5900l0WlAt/QTh4PHfV033BNYdiNlwUK4jzqZGqbru/4IruYmXGRzZ3+AGC7MD61xTKOAtf4KqS9V+toBZQnieQbHCh9movKYAF9cyvuvGpmu/YFBkvITaFtWSES9OcM6ByO9gQiSAL0hKyavmrWZlVjr+81K6wmnp4Xm49sVmWSMJs1bVi2rJFqixpNy/gGSWVb48U5cDtxgRzJuDJTIi0v1M=
+  app: hidden-shelf-33198
+  on:
+    repo: DavidShaw512/node-shopping-list-integration-tests
+    branch: tests-for-recipes
